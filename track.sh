@@ -18,5 +18,6 @@ echo $res
 fi
 
 echo $res > result
-
+if [ -e "env" ]; then
 deactivate
+fi
